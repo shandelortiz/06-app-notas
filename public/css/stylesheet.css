@@ -1,0 +1,86 @@
+/* Estilo general */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+/* Titulo */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Contenedor de notas */
+.note {
+    background-color: #fff8dc;
+    border-left: 5px solid #ffa500;
+    padding: 15px;
+    border-radius: 6px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.note h3 {
+    margin: 0 0 10px;
+}
+
+.note p {
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.note button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: crimson;
+    font-size: 12px;
+    padding: 5px 8px;
+}
+
+.note button:hover {
+    background-color: darkred;
+}
